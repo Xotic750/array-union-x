@@ -23,17 +23,17 @@
 ## array-union-x
 Creates an array of unique values, in order, from all given arrays.
 
-**Version**: 1.0.0  
+**Version**: 2.0.0  
 **Author**: Xotic750 <Xotic750@gmail.com>  
 **License**: [MIT](&lt;https://opensource.org/licenses/MIT&gt;)  
 **Copyright**: Xotic750  
 <a name="exp_module_array-union-x--module.exports"></a>
 
-### `module.exports` ⇒ <code>array</code> ⏏
+### `module.exports([...array])` ⇒ <code>array</code> ⏏
 This method creates an array of unique values, in order, from all given
 arrays using SameValueZero for equality comparisons.
 
-**Kind**: Exported member  
+**Kind**: Exported function  
 **Returns**: <code>array</code> - Returns the new array of combined values.  
 
 | Param | Type | Description |

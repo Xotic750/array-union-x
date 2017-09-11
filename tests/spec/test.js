@@ -21,11 +21,15 @@ if (typeof module === 'object' && module.exports) {
   union = returnExports;
 }
 
-var args = (function () {
-  return arguments;
-}(1, 2, 3));
-
 describe('union', function () {
+  var args;
+
+  beforeEach(function () {
+    args = (function () {
+      return arguments;
+    }(1, 2, 3));
+  });
+
   it('is a function', function () {
     expect(typeof union).toBe('function');
   });
