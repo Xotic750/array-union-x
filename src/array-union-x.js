@@ -7,13 +7,11 @@
  * @module array-union-x
  */
 
-'use strict';
+const reduce = require('array-reduce-x');
+const arrayincludes = require('array-includes-x');
+const isNil = require('is-nil-x');
 
-var reduce = require('array-reduce-x');
-var arrayincludes = require('array-includes-x');
-var isNil = require('is-nil-x');
-
-var addNotIncluded = function _addNotIncluded(acc, value) {
+const addNotIncluded = function _addNotIncluded(acc, value) {
   if (arrayincludes(acc, value) === false) {
     acc[acc.length] = value;
   }
@@ -21,7 +19,7 @@ var addNotIncluded = function _addNotIncluded(acc, value) {
   return acc;
 };
 
-var reduceArgs = function _reduceArgs(acc, arg) {
+const reduceArgs = function _reduceArgs(acc, arg) {
   return isNil(arg) ? acc : reduce(arg, addNotIncluded, acc);
 };
 
@@ -29,8 +27,8 @@ var reduceArgs = function _reduceArgs(acc, arg) {
  * This method creates an array of unique values, in order, from all given
  * arrays using SameValueZero for equality comparisons.
  *
- * @param {...array} [array] - The arrays to inspect.
- * @returns {array} Returns the new array of combined values.
+ * @param {...Array} [array] - The arrays to inspect.
+ * @returns {Array} Returns the new array of combined values.
  * @example
  * var union = require('array-union-x');
  *
