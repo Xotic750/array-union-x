@@ -21,28 +21,31 @@
 <a name="module_array-union-x"></a>
 
 ## array-union-x
+
 Creates an array of unique values, in order, from all given arrays.
 
 **Version**: 2.0.0  
 **Author**: Xotic750 <Xotic750@gmail.com>  
-**License**: [MIT](&lt;https://opensource.org/licenses/MIT&gt;)  
+**License**: [MIT](https://opensource.org/licenses/MIT)  
 **Copyright**: Xotic750  
 <a name="exp_module_array-union-x--module.exports"></a>
 
 ### `module.exports([...array])` ⇒ <code>array</code> ⏏
+
 This method creates an array of unique values, in order, from all given
 arrays using SameValueZero for equality comparisons.
 
 **Kind**: Exported function  
-**Returns**: <code>array</code> - Returns the new array of combined values.  
+**Returns**: <code>array</code> - Returns the new array of combined values.
 
-| Param | Type | Description |
-| --- | --- | --- |
+| Param      | Type               | Description            |
+| ---------- | ------------------ | ---------------------- |
 | [...array] | <code>array</code> | The arrays to inspect. |
 
-**Example**  
-```js
-var union = require('array-union-x');
+**Example**
 
-union([2], [1, 2]); // => [2, 1]
+```js
+import union from 'array-union-x';
+
+console.log(union([2], [1, 2])); // => [2, 1]
 ```
