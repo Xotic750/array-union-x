@@ -3,10 +3,8 @@ import union from '../src/array-union-x';
 describe('union', function() {
   let args;
 
-  /* eslint-disable-next-line jest/no-hooks */
   beforeEach(function() {
     args = (function getArgs() {
-      /* eslint-disable-next-line prefer-rest-params */
       return arguments;
     })(1, 2, 3);
   });
