@@ -21,6 +21,8 @@ const reduceArgs = function reduceArgs(acc, arg) {
  * @param {...Array} [args] - The arrays to inspect.
  * @returns {Array} Returns the new array of combined values.
  */
-export default function union(...args) {
+const union = function union(...args) {
   return reduce(args, reduceArgs, []);
-}
+};
+
+export default union;

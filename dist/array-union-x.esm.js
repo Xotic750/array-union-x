@@ -22,12 +22,14 @@ var reduceArgs = function reduceArgs(acc, arg) {
  */
 
 
-export default function union() {
+var union = function union() {
   for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
     args[_key] = arguments[_key];
   }
 
   return reduce(args, reduceArgs, []);
-}
+};
+
+export default union;
 
 //# sourceMappingURL=array-union-x.esm.js.map
