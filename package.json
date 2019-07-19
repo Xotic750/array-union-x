@@ -1,6 +1,6 @@
 {
   "name": "array-union-x",
-  "version": "3.0.6",
+  "version": "3.0.7",
   "description": "Creates an array of unique values, in order, from all given arrays.",
   "homepage": "https://github.com/Xotic750/array-union-x",
   "author": {
@@ -49,9 +49,9 @@
     "url": "https://github.com/Xotic750/array-union-x/issues"
   },
   "dependencies": {
-    "array-includes-x": "^3.0.7",
-    "array-reduce-x": "^3.0.6",
-    "is-nil-x": "^2.0.14"
+    "array-includes-x": "^3.0.8",
+    "array-reduce-x": "^3.0.7",
+    "is-nil-x": "^2.0.15"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.5",
