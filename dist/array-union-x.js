@@ -2,13 +2,13 @@
 {
   "author": "Graham Fairweather",
   "copywrite": "Copyright (c) 2017",
-  "date": "2019-08-04T20:40:59.411Z",
+  "date": "2019-08-05T10:42:20.368Z",
   "describe": "",
   "description": "Creates an array of unique values, in order, from all given arrays.",
   "file": "array-union-x.js",
   "hash": "f02a42213d24452882c4",
   "license": "MIT",
-  "version": "3.0.16"
+  "version": "3.0.17"
 }
 */
 (function webpackUniversalModuleDefinition(root, factory) {
