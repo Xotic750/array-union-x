@@ -2,7 +2,7 @@
 {
   "author": "Graham Fairweather",
   "copywrite": "Copyright (c) 2017",
-  "date": "2019-09-05T20:02:46.809Z",
+  "date": "2020-01-30T22:54:01.501Z",
   "describe": "",
   "description": "Creates an array of unique values, in order, from all given arrays.",
   "file": "array-union-x.js",
